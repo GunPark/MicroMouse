@@ -1920,15 +1920,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="-27.94" y="93.98" size="1.778" layer="91">Power Supply</text>
-<text x="-27.94" y="7.62" size="1.778" layer="91">LEDs</text>
-<text x="-96.52" y="93.98" size="1.27" layer="91">Communication</text>
-<text x="-111.76" y="-55.88" size="1.27" layer="91">Motor Control</text>
-<text x="-124.46" y="10.16" size="1.27" layer="91">Buttons</text>
-<text x="-241.3" y="99.06" size="1.27" layer="91">Emitters</text>
-<text x="-241.3" y="35.56" size="1.27" layer="91">Receiver</text>
-<text x="-241.3" y="-27.94" size="1.27" layer="91">Voltmeter</text>
-<text x="-284.48" y="-66.04" size="1.27" layer="91">Microcontroller</text>
+<text x="-25.4" y="86.36" size="7.62" layer="95">Power Supply</text>
+<text x="60.96" y="-7.62" size="7.62" layer="95">LEDs</text>
+<text x="-116.84" y="83.82" size="7.62" layer="95">Communication</text>
+<text x="-2.54" y="-104.14" size="7.62" layer="95">Motor Control</text>
+<text x="-289.56" y="86.36" size="7.62" layer="95">Emitters</text>
+<text x="-287.02" y="25.4" size="7.62" layer="95">Receiver</text>
+<text x="-292.1" y="-35.56" size="7.62" layer="95">Voltmeter</text>
+<text x="-200.66" y="-60.96" size="7.62" layer="95">Microcontroller</text>
+<text x="-124.46" y="5.08" size="7.62" layer="95">Buttons</text>
+<text x="-2.54" y="-170.18" size="10.16" layer="95">Dream Team</text>
+<text x="2.54" y="-180.34" size="2.54" layer="95">UCSD Micromouse 2017-2018
+Sean Liu, Gun Park, Yuqian Cheng, Patrick Lee</text>
 </plain>
 <instances>
 <instance part="POLOLU_SWITCH" gate="G$1" x="-5.08" y="76.2" rot="R90"/>
@@ -2445,17 +2448,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-129.54" y1="40.64" x2="-129.54" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="15.24" x2="-33.02" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="-50.8" x2="-129.54" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="-53.34" x2="-129.54" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="-177.8" x2="99.06" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="-177.8" x2="99.06" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="-50.8" x2="-129.54" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="-182.88" x2="-5.08" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-182.88" x2="99.06" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-182.88" x2="99.06" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-157.48" x2="99.06" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-50.8" x2="-129.54" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-22.86" x2="-129.54" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="101.6" x2="-297.18" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-297.18" y1="101.6" x2="-297.18" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-297.18" y1="40.64" x2="-297.18" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-297.18" y1="-22.86" x2="-297.18" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-297.18" y1="-50.8" x2="-297.18" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="-297.18" y1="-177.8" x2="-129.54" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="-297.18" y1="-50.8" x2="-297.18" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="-297.18" y1="-182.88" x2="-129.54" y2="-182.88" width="0.1524" layer="91"/>
 <wire x1="-297.18" y1="40.64" x2="-129.54" y2="40.64" width="0.1524" layer="91"/>
 <junction x="-297.18" y="40.64"/>
 <junction x="-129.54" y="40.64"/>
@@ -2463,8 +2468,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="-297.18" y="-22.86"/>
 <junction x="-129.54" y="-22.86"/>
 <wire x1="-297.18" y1="-50.8" x2="-129.54" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="-50.8" x2="-129.54" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="-297.18" y="-50.8"/>
+<wire x1="-5.08" y1="-182.88" x2="-5.08" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-157.48" x2="99.06" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3102,6 +3108,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
