@@ -1924,10 +1924,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-27.94" y="7.62" size="1.778" layer="91">LEDs</text>
 <text x="-96.52" y="93.98" size="1.27" layer="91">Communication</text>
 <text x="-111.76" y="-55.88" size="1.27" layer="91">Motor Control</text>
-<text x="-121.92" y="10.16" size="1.27" layer="91">BUttons</text>
+<text x="-124.46" y="10.16" size="1.27" layer="91">Buttons</text>
 <text x="-241.3" y="99.06" size="1.27" layer="91">Emitters</text>
 <text x="-241.3" y="35.56" size="1.27" layer="91">Receiver</text>
 <text x="-241.3" y="-27.94" size="1.27" layer="91">Voltmeter</text>
+<text x="-284.48" y="-66.04" size="1.27" layer="91">Microcontroller</text>
 </plain>
 <instances>
 <instance part="POLOLU_SWITCH" gate="G$1" x="-5.08" y="76.2" rot="R90"/>
@@ -2431,8 +2432,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="-33.02" y1="101.6" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="101.6" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="101.6" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="15.24" x2="-33.02" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="15.24" x2="-33.02" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="15.24" x2="-33.02" y2="-50.8" width="0.1524" layer="91"/>
@@ -2440,16 +2441,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="99.06" y1="-50.8" x2="101.6" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="15.24" x2="99.06" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="101.6" x2="-33.02" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="101.6" x2="-129.54" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="101.6" x2="-129.54" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="40.64" x2="-129.54" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="15.24" x2="-33.02" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="-50.8" x2="-129.54" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="-50.8" x2="-129.54" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="-53.34" x2="-129.54" y2="-177.8" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-177.8" x2="99.06" y2="-177.8" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-177.8" x2="99.06" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="-50.8" x2="-129.54" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="101.6" x2="-284.48" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="-284.48" y1="101.6" x2="-294.64" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="-294.64" y1="-177.8" x2="-129.54" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="-50.8" x2="-129.54" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="-22.86" x2="-129.54" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="101.6" x2="-297.18" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-297.18" y1="101.6" x2="-297.18" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-297.18" y1="40.64" x2="-297.18" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-297.18" y1="-22.86" x2="-297.18" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-297.18" y1="-50.8" x2="-297.18" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="-297.18" y1="-177.8" x2="-129.54" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="-297.18" y1="40.64" x2="-129.54" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-297.18" y="40.64"/>
+<junction x="-129.54" y="40.64"/>
+<wire x1="-297.18" y1="-22.86" x2="-129.54" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="-297.18" y="-22.86"/>
+<junction x="-129.54" y="-22.86"/>
+<wire x1="-297.18" y1="-50.8" x2="-129.54" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="-50.8" x2="-129.54" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="-297.18" y="-50.8"/>
 </segment>
 </net>
 <net name="N$4" class="0">
